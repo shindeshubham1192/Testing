@@ -6,6 +6,11 @@ public class Demo {
 	{
 		System.out.println("M1 method is called");
 	}
+	public void m2()
+	{
+		System.out.println("M2 method is called");
+	}
+	
 	public static void main(String[] args) 
 	{
 		System.out.println("hello this is first github project");
