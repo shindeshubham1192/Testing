@@ -10,12 +10,16 @@ public class Demo {
 	{
 		System.out.println("M2 method is called");
 	}
-	
+	public void add()
+	{
+		System.out.println("add method is called");
+	}
 	public static void main(String[] args) 
 	{
 		System.out.println("hello this is first github project");
 		
 		Demo d = new Demo();
 		d.m1();
+		d.m2();
 	}
 }
